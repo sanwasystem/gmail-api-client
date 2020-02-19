@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "tslint-microsoft-contrib/recommended",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "no-relative-imports": false,
+    "promise-function-async": true,
+    "no-single-line-block-comment": false,
+    "function-name": false,
+    "max-line-length": [
+      true,
+      150
+    ]
+  }
+}
